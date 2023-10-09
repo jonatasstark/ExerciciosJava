@@ -1,6 +1,6 @@
 package JavaMatematica;
 
-public class VolumePiramide {
+public class VolumePiramide { // Pirâmide Base Quadrada
     public static void main(String[] args) {
         int ladoBase = 6;//variavel que declara o lado da base de uma piramide de base quadrada
         int altura = 8;//variavel que declara a altura
