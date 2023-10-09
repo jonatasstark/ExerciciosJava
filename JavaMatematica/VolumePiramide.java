@@ -10,6 +10,6 @@ public class VolumePiramide { // Pirâmide Base Quadrada
         double volume = areaBase * altura / 3;//variavel que calcula o volume da piramide
 
         System.out.println("Pirâmide de base quadrada:");
-        System.out.println("Volume: " + volume + " Área: " + areaBase);
+        System.out.println("Volume: " + volume + " Área: " + areaBase); // exibe o volume e a área
     }
 }
