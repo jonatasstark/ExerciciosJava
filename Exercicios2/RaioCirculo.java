@@ -13,5 +13,6 @@ public class RaioCirculo {
 
         System.out.println("O perímetro do círculo é: " + perimetro + " e a área é: " + area);
         
+        ler.close();
     }
 }

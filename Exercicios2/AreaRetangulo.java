@@ -13,6 +13,8 @@ public class AreaRetangulo {
         float area = altura * base;//a variavel area do tipo float recebe altura * base
 
         System.out.println("A area do retangulo é de: " + area);
+
+        ler.close();
     }
     
 }

@@ -13,5 +13,7 @@ public class Soma {
         int soma = numero1 + numero2; // calcula a soma entre os numeros
 
         System.out.printf("A soma entre %d + %d = %d", numero1, numero2, soma);
+
+        ler.close();
     }
 }

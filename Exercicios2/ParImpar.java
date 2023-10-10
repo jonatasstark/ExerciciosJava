@@ -12,5 +12,7 @@ public class ParImpar {
         }else{//funçao else, caso numero1 nao de resto 0, identifica que o numero é impar
             System.out.println("O numero " + numero1 + " é impar!");
         }
+
+        ler.close();
     }
 }
