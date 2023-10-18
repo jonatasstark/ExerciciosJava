@@ -9,7 +9,7 @@ public class CalcularMedia {
         System.out.println("Quantas notas serão digitadas: ");
         int numeros = ler.nextInt();
 
-        double[] notas = new double[numeros]; // Array para armazenar as notas
+        double[] notas = new double[numeros]; 
 
         System.out.println("Digite as notas: ");
         for (int i = 0; i < numeros; i++) {
@@ -18,7 +18,7 @@ public class CalcularMedia {
 
         ler.close();
 
-        double media = calcularMedia(notas); // Chama a função para calcular a média
+        double media = calcularMedia(notas); 
 
         System.out.println("A média das notas é de: " + media);
     }
